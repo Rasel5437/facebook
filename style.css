@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+/*main css*/
+.header{
+    background: #3B5998;
+}
+.h-left {
+    display: inline-block;
+    font-size: 44px;
+}
+.h-left a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;;
+}
+.h-r-label ul {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.h-r-label ul li {
+    display: inline-block;
+    margin-right: 80px;
+    font-size: 15px;
+    color: white;
+    list-style: none;
+    margin-right: 103px;
+}
+.h-r-label ul li label {
+    margin-bottom: -5px;
+}
+.h-r-box ul {
+    margin-bottom: 0px;
+}
+.h-r-box ul li {
+    display: inline-block;
+    margin-right: 24px;
+}
+.h-r-box ul li a {
+    color: white;
+    display: inline-block;
+    padding: 2px 9px;
+    background: blue;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+.h-r-box ul li a:hover{
+    background: dodgerblue;
+}
+.forget {
+    margin-left: 208px;
+}
+.forget a {
+    color: white;
+    font-size: 13px;
+}
+/*middle part*/
+
+.middle {
+    background: #f7f9ff;
+}
+.m-left {
+    margin-top: 26px;
+}
+.m-right {
+    margin-top: 22px;
+}
+.m-left h4 {
+    margin-bottom: 61px;
+}
+.l-img {
+    width: 155px;
+    background: white;
+    border-radius: 7px;
+}
+span.l-img.left {
+    height: 207px;
+    font-size: 73px;
+    margin-left: 24px;
+}
+span a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    display: inherit;
+    line-height: 2.5;
+}
+.m-right h1 {
+    font-size: 36px;
+}
+.m-right h5 {
+    font-size: 22px;
+    margin-bottom: 27px;
+}
+.form input {
+    padding: 7px;
+    font-size: 18px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+input.f-name {
+    margin-right: 13px;
+}
+input.m-no {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 445px;
+}
+input.pas {
+    width: 445px;
+    margin-bottom: 30px;
+}
+.birth select {
+    width: 81px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+abbr{
+    cursor: pointer;
+}
+input[type="radio"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.m-text p {
+    font-size: 13px;
+    width: 383px;
+}
+.btn a {
+    display: inline-block;
+    background: #5ba533;
+    color: white;
+    margin-left: -12px;
+    text-decoration: none;
+    padding: 10px 43px;
+    font-size: 23px;
+    font-weight: 700;
+    border-radius: 7px;
+    margin-bottom: 18px;
+    transition: .5s;
+}
+.btn a:hover{
+    background: black;
+    color: white;
+}
+/*footer*/
+.language {
+    margin-top: 10px;
+}
+.language ul li {
+    display: inline-block;
+    padding: 0 6px;
+}
+.menu ul li {
+    display: inline-block;
+    padding: 0 8px;
+}
+.f-b-bottom {
+    margin-left: 18px;
+    color: #767676;
+    line-height: 15px;
+}
